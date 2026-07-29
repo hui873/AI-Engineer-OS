@@ -1,0 +1,14 @@
+[
+    {
+        "name": "张辉",
+        "math": 60,
+        "english": 70,
+        "chinese": 40
+    },
+    {
+        "name": "王宇",
+        "math": 70,
+        "english": 90,
+        "chinese": 60
+    }
+]
