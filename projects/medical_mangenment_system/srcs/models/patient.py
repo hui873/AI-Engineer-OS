@@ -55,5 +55,5 @@ class Patient:
 
 
 if __name__ == "__main__":
-    patient=Patient("张三",18,"高血压") 
+    patient=Patient("1001","张三",18,"男","高血压") 
     patient.show_info()
