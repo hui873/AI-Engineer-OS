@@ -178,7 +178,7 @@ class VipMember(Member):
         card_id: str,
         name: str,
         password: str,
-        vip_level: int
+        vip_level: int = 1
     ):
 
         # 调用父类初始化
@@ -212,5 +212,5 @@ class VipMember(Member):
             data["卡号"],
             data["姓名"],
             data["密码"],
-            data["会员等级"]
+            data.get("会员等级", 1)
         )

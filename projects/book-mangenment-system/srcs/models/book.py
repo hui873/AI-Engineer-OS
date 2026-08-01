@@ -22,7 +22,8 @@ class Book:
         """
         初始化图书对象
         """
-
+        if not self.check_stock(stock):
+            raise ValueError("图书库存不能小于 0")
         # 图书编号
         self.book_id = book_id
         # 图书标题
