@@ -27,7 +27,7 @@ def run_system():
         try:
             choice = input("请输入功能编号：").strip()
         except (EOFError, KeyboardInterrupt):
-            print("\n系统已退出，再见！")
+            print("\n系统已退出,再见!")
             break
 
         try:
@@ -48,9 +48,9 @@ def run_system():
                 print("系统已退出，再见！")
                 break
             else:
-                print("功能编号无效，请输入 0～5。")
+                print("功能编号无效，请输入 0~5。")
         except ValueError:
-            print("成绩输入有误，请输入 0～100 之间的整数！")
+            print("成绩输入有误，请输入 0~100 之间的整数！")
         except (EOFError, KeyboardInterrupt):
             print("\n本次操作已取消。")
 
